@@ -1,0 +1,22 @@
+# outputs of the notebooks
+outputs/
+models/
+plots/
+
+# real data is confidential - never commit it
+data/
+*.xlsx
+*.xls
+*.sgy
+*.segy
+*.npy
+!example_data/*.npy
+*.txt
+!requirements.txt
+*.pt
+*.joblib
+
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.vscode/
